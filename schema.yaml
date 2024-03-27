@@ -1,0 +1,88 @@
+
+TARGET_COLUMN:
+  name: FinalGrade
+columns:
+  - StudentID: int 
+  - FirstName: category
+  - FamilyName: category
+  - sex : category
+  - age : int
+  - address: object
+  - famsize: category
+  - Pstatus: category
+  - Medu : int
+  - Fedu   : int
+  - Mjob : category
+  - Fjob : category
+  - reason      : category
+  - guardian    : category
+  - traveltime  : int
+  - studytime   : int
+  - failures    : int
+  - schoolsup   : category
+  - famsup : category
+  - paid : category
+  - activities  : category
+  - nursery     : category
+  - higher : category
+  - internet    : category
+  - romantic    : category
+  - famrel : int
+  - freetime    : int
+  - goout  : int
+  - Dalc : int
+  - Walc : int
+  - health : int
+  - absences    : int
+  - FinalGrade  : int
+
+# for data transformation
+num_features:
+  - age
+  - Medu
+  - Fedu
+  - traveltime
+  - studytime
+  - failures
+  - famrel
+  - freetime
+  - goout
+  - Dalc
+  - Walc
+  - health
+  - absences
+
+oh_columns:
+  - sex
+  - address
+  - famsize
+  - Pstatus
+  - Mjob
+  - Fjob
+  - reason
+  - guardian
+  - schoolsup
+  - famsup
+  - paid
+  - activities
+  - nursery
+  - higher
+  - internet
+  - romantic
+ 
+drop_columns:
+ 
+  - StudentID 
+  - FirstName
+  - FamilyName
+
+ 
+
+or_columns:
+ 
+
+oh_columns:
+ 
+
+transform_columns:
+ 
