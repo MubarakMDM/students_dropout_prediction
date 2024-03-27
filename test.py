@@ -1,1 +1,0 @@
-print("students drop out")
